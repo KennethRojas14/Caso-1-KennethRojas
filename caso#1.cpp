@@ -2,8 +2,13 @@
 // Elaborado por Kenneth Rojas y
 // Ultima modificación 12/08/2022
 // Caso #1
+//Funcionamiento del codigo: Se emplea un mapa en formato de cuadricula pre definido, luego se evalua 
+//casilla por casilla si los colores adyacentes son diferentes, si es correcto está condición hasta la ultima casilla 
+//imprime un mensaje indicando que el mapa esta estructurado de manera correcta, si se altera un color para tirar el programa
+//indicara un mensaje que el mapa esta estructurado de manera incorrecta
 #include <iostream>
 using namespace std;
+
 
 #define ROJO 1
 #define VERDE 2
